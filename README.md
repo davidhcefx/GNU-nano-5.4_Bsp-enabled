@@ -1,5 +1,5 @@
 # nano-4.8
-Now, Ctrl+Backspace can delete a word forward! (which is already supported in modern browser, editor, search bar, etc. Everwhere!)
+Now, `Ctrl+Backspace` can delete a word forward! (which is already supported in most of the browser, editor, file explorer, etc. Everywhere!)
 
 ## Compile
 
