@@ -4,8 +4,9 @@
 ## Compile
 
 - Please refer to [README.GIT](/README.GIT).
-- Install the dependencies, then run `./autogen.sh`.
-- After that, just do the normal `./configure` and `make; make install`.
+1. Install the dependencies: `apt install autoconf automake autopoint gcc gettext git groff make pkg-configtexinfo`
+2. Run `./autogen.sh`.
+3. After that, just do the normal `./configure` and `make; make install`.
 
 ## Binary file
 
