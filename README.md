@@ -4,7 +4,7 @@
 ## Compile
 
 - Please refer to [README.GIT](/README.GIT).
-1. Install the dependencies: `apt install autoconf automake autopoint gcc gettext git groff make pkg-configtexinfo`
+1. Install the dependencies: `apt install autoconf automake autopoint gcc gettext git groff make pkg-config texinfo`
 2. Run `./autogen.sh`.
 3. After that, just do the normal `./configure` and `make; make install`.
 
