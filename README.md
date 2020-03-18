@@ -12,6 +12,6 @@
 
 Here are some binary files I compiled within Docker. However, I don't guarantee they will work on YOUR machine! I suggest you compile it yourself in case something went wrong.
 
-- [Ubuntu 19.10](/bin/ubuntu_16.04)
+- [Ubuntu 19.10](/bin/ubuntu_19.10)
 - [Ubuntu 18.04](/bin/ubuntu_18.04)
-- [Ubuntu 16.04](/bin/ubuntu_19.10)
+- [Ubuntu 16.04](/bin/ubuntu_16.04)
