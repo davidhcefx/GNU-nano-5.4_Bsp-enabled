@@ -1,4 +1,4 @@
-# nano-4.8
+# nano-4.8 (modified)
 **Now, Ctrl+Backspace can delete a word backwards!** (which is already supported in most of the browsers, editors, file explorers, etc. Everywhere!)
 
 ## Compile
