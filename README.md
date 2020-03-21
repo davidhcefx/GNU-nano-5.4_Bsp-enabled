@@ -21,5 +21,5 @@ Here are some binary files I compiled within Docker. However, I don't guarantee 
 Add the following line to your `.nanorc`, and test if you can delete a word backwards by pressing Ctrl+Backspace:
 
 ```nanorc
-bind ^H chopwordleft all
+bind ^Bsp chopwordleft all
 ```
