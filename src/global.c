@@ -524,9 +524,6 @@ int keycode_from_string(const char *keystring)
 #if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__APPLE__)
 			if (keystring[1] == 'H')
 				return KEY_BACKSPACE;
-#else
-			if (keystring[1] == 'H')
-				return BS_CODE;
 #endif
 			if (keystring[1] <= '_')
 				return keystring[1] - 64;
@@ -534,8 +531,10 @@ int keycode_from_string(const char *keystring)
 				return 0;
 			else
 				return -1;
-		} else if (strcasecmp(keystring, "^Space") == 0)
+		} else if (strcasecmp(keystring, "^Space") == 0) {
 			return 0;
+		} else if (strcasecmp(keystring, "^Bsp") == 0)
+			return BS_CODE;
 		else
 			return -1;
 	} else if (keystring[0] == 'M') {
