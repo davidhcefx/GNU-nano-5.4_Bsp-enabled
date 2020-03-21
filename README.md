@@ -15,3 +15,11 @@ Here are some binary files I compiled within Docker. However, I don't guarantee 
 - [Ubuntu 19.10](/bin/ubuntu_19.10)
 - [Ubuntu 18.04](/bin/ubuntu_18.04)
 - [Ubuntu 16.04](/bin/ubuntu_16.04)
+
+## Usage
+
+Add the following line to your `.nanorc`, and test if you can delete a word backwards by pressing Ctrl+Backspace:
+
+```nanorc
+bind ^H chopwordleft all
+```
