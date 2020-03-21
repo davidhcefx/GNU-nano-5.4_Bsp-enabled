@@ -525,8 +525,8 @@ int keycode_from_string(const char *keystring)
 			if (keystring[1] == 'H')
 				return KEY_BACKSPACE;
 #else
-            if (keystring[1] == 'H')
-                return BS_CODE;
+			if (keystring[1] == 'H')
+				return BS_CODE;
 #endif
 			if (keystring[1] <= '_')
 				return keystring[1] - 64;
