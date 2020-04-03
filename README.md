@@ -1,5 +1,10 @@
 # nano-4.8 (modified)
-**Now, Ctrl+Backspace can delete a word backwards!** (which is already supported in most of the browsers, editors, file explorers, etc. Everywhere!)
+
+**Ctrl + Backspace** is a modern keybinding that has already been widely supported in most browsers, text editors, search bars, file explorers, etc. However, the nanorc file has very limited adjustabily on keybindings, so it's time for us to compile it ourselves!
+
+## How it works
+
+
 
 ## Compile
 
@@ -14,11 +19,3 @@ Here are some binary files I compiled within Docker. However, I don't guarantee 
 
 - [Ubuntu 18.04](/bin/ubuntu_18.04)
 - [Ubuntu 16.04](/bin/ubuntu_16.04)
-
-## Usage
-
-Add the following line to your `.nanorc`, and test if you can delete a word backwards by pressing Ctrl+Backspace:
-
-```nanorc
-bind ^Bsp chopwordleft all
-```
