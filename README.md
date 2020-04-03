@@ -39,7 +39,7 @@
 3. After that, just do the normal `./configure` and `make; make install`.
 
 
-## I am lazy
+## Binary files
 
 Here are some binary files I compiled within Docker. However, I don't guarantee they will work on YOUR machine! I suggest you compile it yourself in case something went wrong.
 
