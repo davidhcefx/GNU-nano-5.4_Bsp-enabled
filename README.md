@@ -10,7 +10,7 @@
 
    - If this is your case, then congratulations! You can map `^H` to `chopwordleft` already.  
    - On some terminals, unfortunately, `<Backspace>` emits `^H`, while `<Ctrl+Backspace>` emits `KEY_BACKSPACE`.  
-   *(Although some terminals allow you to change the keycode emitted by `<Backspace>`)*
+   *(Although some of the terminals allow you to change the keycode emitted by `<Backspace>`)*
 
 2. In order to switch back the reversed mapping above, we need to be able to map the key `<Backspace>`.
 
