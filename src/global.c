@@ -391,6 +391,8 @@ int keycode_from_string(const char *keystring)
 				return -1;
 		} else if (strcasecmp(keystring, "^Space") == 0)
 			return 0;
+		else if (strcasecmp(keystring, "^Bsp") == 0)
+			return '\b';
 		else
 			return -1;
 	} else if (keystring[0] == 'M') {
@@ -416,6 +418,8 @@ int keycode_from_string(const char *keystring)
 		return KEY_IC;
 	else if (strcasecmp(keystring, "Del") == 0)
 		return KEY_DC;
+	else if (strcasecmp(keystring, "Bsp") == 0)
+		return KEY_BACKSPACE;
 	else
 		return -1;
 }
