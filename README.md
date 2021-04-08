@@ -39,12 +39,3 @@
 2. Run `./autogen.sh`.
 
 3. After that, just do the normal `./configure` and `make; make install`.
-
-
-## Binary files
-
-Here are some binary files I compiled within Docker. However, I don't guarantee they will work on YOUR machine! I suggest you compile it yourself in case something went wrong.
-
-- [Ubuntu 18.04](/bin/ubuntu_18.04)
-- [Ubuntu 16.04](/bin/ubuntu_16.04)
-- [Win10/Cygwin 3.14](/bin/cygwin_3.1.4)
