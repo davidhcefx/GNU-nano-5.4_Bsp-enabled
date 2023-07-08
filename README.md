@@ -1,5 +1,5 @@
 # GNU nano (5.4) - Bsp-enabled
-[![build](https://github.com/davidhcefx/GNU_nano_5.4_Bsp-enabled/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/davidhcefx/GNU_nano_5.4_Bsp-enabled/actions/workflows/build.yml)
+[![build](https://github.com/davidhcefx/GNU_nano_5.4_Bsp-enabled/actions/workflows/build.yml/badge.svg)](https://github.com/davidhcefx/GNU_nano_5.4_Bsp-enabled/actions/workflows/build.yml)
 
 **Ctrl + Backspace** is a modern keybinding that has already been widely supported in most browsers, text editors, search bars, file explorers, etc. However, the `nanorc` file has very limited adjustabily on keybindings, so it's time for us to compile it ourselves!
 
